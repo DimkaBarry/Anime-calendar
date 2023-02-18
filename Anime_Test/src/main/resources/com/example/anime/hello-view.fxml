@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.anime.GUIController">
+   <children>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="1024.0" spacing="8.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Choose day" />
+                  <ChoiceBox fx:id="dropdown_chooseDay" prefWidth="150.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Choose title" />
+                  <ChoiceBox fx:id="dropdown_chooseTitle" prefWidth="150.0" />
+               </children>
+            </VBox>
+            <Button fx:id="btn_addTitle" mnemonicParsing="false" onAction="#addTitle" text="Add title" />
+            <ChoiceBox fx:id="dropdown_switchView" prefWidth="150.0" />
+         </children></HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="668.0" prefWidth="1024.0" spacing="16.0">
+         <children>
+            <VBox fx:id="vbox_Monday" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="lblMon" text="Monday" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox_Tuesday" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="lblTue" text="Tuesday" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox_Wednesday" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="lblWed" text="Wednesday" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox_Thursday" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="lblThu" text="Thursday" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox_Friday" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="lblFri" text="Friday" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox_Saturday" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="lblSat" text="Saturday" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox_Sunday" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="lblSun" text="Sunday" />
+               </children>
+            </VBox>
+         </children></HBox>
+   </children>
+</VBox>

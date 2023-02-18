@@ -1,0 +1,6 @@
+module-info.class
+com\example\classes\Main.class
+com\example\classes\Database.class
+com\example\classes\AnimeTitle.class
+com\example\classes\GUIController.class
+com\example\classes\AnimeTitleData.class

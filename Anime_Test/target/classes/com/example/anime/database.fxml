@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.anime.DatabaseController">
+   <children>
+      <ChoiceBox fx:id="dropdownView" layoutX="14.0" layoutY="38.0" prefWidth="150.0" />
+      <TableView fx:id="tableView_0" layoutX="16.0" layoutY="72.0" prefHeight="696.0" prefWidth="993.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="72.0">
+        <columns>
+          <TableColumn fx:id="columnName" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="columnPathToImg" prefWidth="75.0" text="Path to image" />
+        </columns>
+      </TableView>
+      <Label layoutX="56.0" layoutY="6.0" text="Choose view" />
+   </children>
+</AnchorPane>
